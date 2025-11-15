@@ -1,0 +1,156 @@
+/* Custom styling for enhanced features */
+
+/* Contact Modal Animations */
+#contact-modal {
+    animation: fadeIn 0.3s ease;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+/* Enhanced Contact Button Hover */
+#contact-btn {
+    position: relative;
+    overflow: hidden;
+}
+
+#contact-btn::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 0;
+    height: 0;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.2);
+    transform: translate(-50%, -50%);
+    transition: width 0.6s, height 0.6s;
+}
+
+#contact-btn:hover::before {
+    width: 300px;
+    height: 300px;
+}
+
+/* Creator Card Hover Effect */
+footer .max-w-md {
+    transition: all 0.3s ease;
+}
+
+footer .max-w-md:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 12px 40px rgba(44, 95, 93, 0.3);
+}
+
+/* Signature Pulse Animation */
+@keyframes signaturePulse {
+    0%, 100% {
+        box-shadow: 0 0 0 0 rgba(44, 95, 93, 0.4);
+    }
+    50% {
+        box-shadow: 0 0 0 10px rgba(44, 95, 93, 0);
+    }
+}
+
+footer .w-16.h-16 {
+    animation: signaturePulse 3s ease-in-out infinite;
+}
+
+/* Enhanced GitHub link hover effects with scale transformation */
+footer a[href*="github.com"] {
+    transition: all 0.3s ease;
+}
+
+footer a[href*="github.com"]:hover svg {
+    transform: rotate(360deg) scale(1.2);
+    transition: transform 0.5s ease;
+}
+
+/* Contact Options Hover Effects */
+#contact-modal a {
+    position: relative;
+    overflow: hidden;
+}
+
+#contact-modal a::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.4), transparent);
+    transition: left 0.5s;
+}
+
+#contact-modal a:hover::before {
+    left: 100%;
+}
+
+/* Special GitHub card animation - slide up from bottom effect */
+@keyframes slideUpGlow {
+    0% {
+        transform: translateY(2px);
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    }
+    50% {
+        transform: translateY(-2px);
+        box-shadow: 0 12px 30px rgba(0, 0, 0, 0.2);
+    }
+    100% {
+        transform: translateY(2px);
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    }
+}
+
+#contact-modal a[href*="github.com"]:hover {
+    animation: slideUpGlow 1s ease-in-out;
+}
+
+/* Smooth scroll behavior */
+html {
+    scroll-behavior: smooth;
+}
+
+/* Professional link styling */
+a[href^="mailto:"],
+a[href*="linkedin.com"],
+a[href*="github.com"] {
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+/* Social icons group hover effect with stagger animation */
+footer .flex.flex-wrap.items-center.gap-2 a {
+    transition: all 0.3s ease;
+}
+
+footer .flex.flex-wrap.items-center.gap-2:hover a {
+    opacity: 0.5;
+}
+
+footer .flex.flex-wrap.items-center.gap-2 a:hover {
+    opacity: 1;
+    transform: translateY(-2px);
+}
+
+/* Mobile responsive adjustments */
+@media (max-width: 768px) {
+    #contact-btn {
+        display: none;
+    }
+    
+    /* Show contact in mobile menu */
+    nav .flex.items-center.space-x-6::after {
+        content: 'Contact';
+        display: block;
+        padding: 0.5rem 1rem;
+    }
+}
+</parameter>
