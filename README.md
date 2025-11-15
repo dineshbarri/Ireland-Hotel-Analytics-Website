@@ -49,18 +49,20 @@ Ireland-Hotels-UI-Project/
 ├── style.css # Application styling
 ├── main.js # App logic, data, charts, map
 ├── package.json # Minimal metadata
-│
+├── data
+     ├──  hotels.csv #  Irish Hotels Dataset 
 ├── design.md # Design system, colors, components
 ├── implementation.md # Architecture notes + DAX samples
 ├── interaction.md # UX patterns & interactions
 ├── outline.md # Project plan & functional breakdown
 │
 └── resources/ # Images and static assets
-├── hero-bg.jpg
-├── hotel-1.jpg
-├── hotel-2.jpg
-├── hotel-3.jpg
-└── hotel-4.jpg
+    ├── hero-bg.jpg
+    ├── hotel-1.jpg
+    ├── hotel-2.jpg
+    ├── hotel-3.jpg
+    ├── website-preview.gif # Website Preview 
+    └── hotel-4.jpg
 ```
 
 
