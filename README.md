@@ -128,10 +128,10 @@ Each row includes:
 
 ### 🧰 Tech Stack
 
-<p align="left">
-  <img src="https://skillicons.dev/icons?i=html,css,js,github,netlify" height="50" />
-</p>
-
+- **Frontend**: HTML5, CSS3, JavaScript (ES6+)
+- **Visualization**: ECharts.js, Leaflet.js
+- **Animation**: Anime.js, Typed.js
+- **Design**: Tailwind CSS, Custom CSS
 
 ---
 
@@ -210,10 +210,11 @@ In your browser.
 
 ## 🤝 Contributing
 
-We welcome improvements! Please read:
+We welcome contributions! Please read our
 
-* `CONTRIBUTING.md`
-* `CODE_OF_CONDUCT.md`
+* [Contributing Guidelines](CONTRIBUTING.md)
+
+* [Code of Conduct](CODE_OF_CONDUCT.md)
 
 ---
 
