@@ -6,7 +6,9 @@
 [![HTML5](https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/HTML)
 [![CSS3](https://img.shields.io/badge/CSS3-1572B6?logo=css3&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/CSS)
 
-> A sophisticated data visualization dashboard for analyzing hotel booking patterns, pricing strategies, and competitive intelligence across Ireland's hospitality market.
+## 📊 Project Overview
+
+The Ireland Hotel Analytics Dashboard is a comprehensive data visualization tool that tracks and analyzes hotel pricing across Ireland using real-time data scraped from Booking.com. The dashboard specifically focuses on weekend one-night stays, providing users with clear insights into price distribution patterns across different Irish counties.
 
 ## 📸 Website Preview
 
@@ -202,6 +204,11 @@ open index.html
 - **📧 Email**: [dineshbarri1997@gmail.com](mailto:dineshbarri1997@gmail.com)
 - **💼 LinkedIn**: [dinesh-barri](https://www.linkedin.com/in/dinesh-barri)
 - **🐙 GitHub**: [dineshbarri](https://github.com/dineshbarri)
+
+---
+
+🤝 Contributing
+We welcome contributions! Please see our Contributing Guidelines for details.
 
 ---
 
