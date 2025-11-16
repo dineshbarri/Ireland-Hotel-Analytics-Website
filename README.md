@@ -1,14 +1,20 @@
 # 🏨 Ireland Hotels Analytics Dashboard 
 
+<div align="center">
+ 
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![ECharts](https://img.shields.io/badge/Apache_ECharts-AA344D?style=for-the-badge&logo=apache&logoColor=white)
+![Leaflet](https://img.shields.io/badge/Leaflet-199900?style=for-the-badge&logo=leaflet&logoColor=white)
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![JavaScript](https://img.shields.io/badge/JavaScript-ES6+-yellow)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
-[![HTML5](https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/HTML)
-[![CSS3](https://img.shields.io/badge/CSS3-1572B6?logo=css3&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/CSS)
+</div>
 
 ## 📊 Project Overview
 
 The Ireland Hotel Analytics Dashboard is a comprehensive data visualization tool that tracks and analyzes hotel pricing across Ireland using real-time data scraped from Booking.com. The dashboard specifically focuses on weekend one-night stays, providing users with clear insights into price distribution patterns across different Irish counties.
+
+---
 
 ## 📸 Website Preview
 
@@ -18,16 +24,13 @@ The Ireland Hotel Analytics Dashboard is a comprehensive data visualization tool
  ![Hotels Dashboard Screenshot](assets/website-preview.gif)
   <p>
     <a href="https://ireland-hotels-dineshbarri.netlify.app/" target="_blank">
-      🚀 Live Website Demo
+      🚀 Live Demo
     </a>
   </p>
   
 </div>
 
-
-## 📊 Project Overview
-
-The Ireland Hotels Booking Intelligence Dashboard is an interactive web application that transforms raw hotel data into actionable business insights. Built with modern web technologies, it provides hoteliers, travelers, and analysts with comprehensive market intelligence through beautiful visualizations and intuitive filtering capabilities.
+---
 
 ### ✨ Key Features
 
@@ -38,7 +41,6 @@ The Ireland Hotels Booking Intelligence Dashboard is an interactive web applicat
 - **📱 Responsive Design** - Optimized for desktop, tablet, and mobile devices
 - **🎨 Premium Design** - Luxury hotel-inspired visual design system
 - **⚡ Real-time Updates** - Instant dashboard updates with smooth animations
-
 
 
 ---
@@ -121,19 +123,25 @@ The dataset comprises **447 hotels** across Ireland with detailed metrics:
 
 ---
 
-## 🔧 Installation & Setup
+## ⚙️ Installation & Setup
 
-### Local Development
-```
-# Clone the repository
+Follow the steps below to run the project locally:
+
+```bash
 git clone https://github.com/dineshbarri/Ireland-Hotel-Analytics-Website.git
-
-# Navigate to project directory
-cd ireland-hotels-dashboard
-
-# No build process required - open directly in browser
-open index.html
+cd Ireland-Hotel-Analytics-Website
 ```
+
+Then simply open:
+
+```
+index.html
+```
+
+In your browser.
+
+> No backend or server required — **pure HTML/CSS/JS project**.
+
 
 ---
 
@@ -187,7 +195,7 @@ open index.html
 - **Sentiment Analysis** - Review text mining
 - **Mobile App** - Native iOS/Android applications
 - **API Development** - RESTful data endpoints
-- **User Accounts** - Saved searches and preferences
+
 
 ---
 
@@ -207,8 +215,12 @@ open index.html
 
 ---
 
-🤝 Contributing
-We welcome contributions! Please see our Contributing Guidelines for details.
+## 🤝 Contributing
+
+We welcome improvements! Please read:
+
+* `CONTRIBUTING.md`
+* `CODE_OF_CONDUCT.md`
 
 ---
 
@@ -231,22 +243,11 @@ This project was made possible thanks to:
 - **Animation**:
   - [Anime.js](https://animejs.com/)
   - [Splide.js](https://splidejs.com/)
-- **Design Inspiration**: Premium hospitality brands
-- **And you!** ⭐ Star this repository if you find it helpful!
+- **Netlify hosting**
 
 ---
 
-### 🛠️ Built With
-
-<div align="center">
-
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![ECharts](https://img.shields.io/badge/Apache_ECharts-AA344D?style=for-the-badge&logo=apache&logoColor=white)
-![Leaflet](https://img.shields.io/badge/Leaflet-199900?style=for-the-badge&logo=leaflet&logoColor=white)
-
-</div>
+### ⭐ If you like this project, don't forget to give it a star!
 
 ---
 
